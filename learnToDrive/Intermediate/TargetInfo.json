@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "learnToDrive",
+			"Path": "D:\\ureal proj\\learnToDrive\\Source\\learnToDrive.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "learnToDriveEditor",
+			"Path": "D:\\ureal proj\\learnToDrive\\Source\\learnToDriveEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

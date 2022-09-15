@@ -1,0 +1,21 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\ureal proj\\learntodrive\\intermediate\\build\\win64\\unrealeditor\\inc\\learntodrive\\vehiclepawn.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ureal proj\\learntodrive\\intermediate\\build\\win64\\learntodriveeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\ureal proj\\learntodrive\\intermediate\\build\\win64\\unrealeditor\\development\\learntodrive\\definitions.learntodrive.h",
+            "d:\\ureal proj\\learntodrive\\source\\learntodrive\\private\\vehiclepawn.h",
+            "d:\\ue_5.0\\engine\\plugins\\experimental\\chaosvehiclesplugin\\source\\chaosvehicles\\public\\wheeledvehiclepawn.h",
+            "d:\\ue_5.0\\engine\\plugins\\experimental\\chaosvehiclesplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\chaosvehicles\\wheeledvehiclepawn.generated.h",
+            "d:\\ureal proj\\learntodrive\\source\\learntodrive\\private\\road.h",
+            "d:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\splinecomponent.h",
+            "d:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\splinecomponent.generated.h",
+            "d:\\ureal proj\\learntodrive\\intermediate\\build\\win64\\unrealeditor\\inc\\learntodrive\\road.generated.h",
+            "d:\\ureal proj\\learntodrive\\intermediate\\build\\win64\\unrealeditor\\inc\\learntodrive\\vehiclepawn.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

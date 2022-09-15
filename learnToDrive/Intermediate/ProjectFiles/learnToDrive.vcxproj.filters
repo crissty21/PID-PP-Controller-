@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\learnToDrive.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\learnToDrive.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\learnToDriveEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\learnToDrive">
+      <UniqueIdentifier>{551F7AEE-ADE4-3732-A1EC-1BFF78C51203}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\learnToDrive\learnToDrive.Build.cs">
+      <Filter>Source\learnToDrive</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\learnToDrive\learnToDrive.cpp">
+      <Filter>Source\learnToDrive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\learnToDrive\learnToDrive.h">
+      <Filter>Source\learnToDrive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\learnToDrive\MyAIController.cpp">
+      <Filter>Source\learnToDrive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\learnToDrive\MyAIController.h">
+      <Filter>Source\learnToDrive</Filter>
+    </ClInclude>
+    <Filter Include="Source\learnToDrive\Private">
+      <UniqueIdentifier>{C6EB0ED1-7E6C-31FF-B543-D5E37F8D3F90}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\learnToDrive\Private\Road.cpp">
+      <Filter>Source\learnToDrive\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\learnToDrive\Private\Road.h">
+      <Filter>Source\learnToDrive\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\learnToDrive\Private\temp.cpp">
+      <Filter>Source\learnToDrive\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\learnToDrive\Private\temp.h">
+      <Filter>Source\learnToDrive\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\learnToDrive\Private\VehiclePawn.cpp">
+      <Filter>Source\learnToDrive\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\learnToDrive\Private\VehiclePawn.h">
+      <Filter>Source\learnToDrive\Private</Filter>
+    </ClInclude>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
