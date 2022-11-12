@@ -56,10 +56,28 @@
     <Filter Include="Source\learnToDrive\Private">
       <UniqueIdentifier>{C6EB0ED1-7E6C-31FF-B543-D5E37F8D3F90}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\learnToDrive\Private\CameraCapture.cpp">
+      <Filter>Source\learnToDrive\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\learnToDrive\Private\CameraCapture.h">
+      <Filter>Source\learnToDrive\Private</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\learnToDrive\Private\Road.cpp">
       <Filter>Source\learnToDrive\Private</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\learnToDrive\Private\Road.h">
+      <Filter>Source\learnToDrive\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\learnToDrive\Private\Screen.cpp">
+      <Filter>Source\learnToDrive\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\learnToDrive\Private\Screen.h">
+      <Filter>Source\learnToDrive\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\learnToDrive\Private\Screens.cpp">
+      <Filter>Source\learnToDrive\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\learnToDrive\Private\Screens.h">
       <Filter>Source\learnToDrive\Private</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\learnToDrive\Private\temp.cpp">
@@ -74,6 +92,5 @@
     <ClInclude Include="..\..\Source\learnToDrive\Private\VehiclePawn.h">
       <Filter>Source\learnToDrive\Private</Filter>
     </ClInclude>
-    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

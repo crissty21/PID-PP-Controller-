@@ -15,6 +15,8 @@ void EmptyLinkFunctionForGeneratedCodeVehiclePawn() {}
 	UPackage* Z_Construct_UPackage__Script_learnToDrive();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	LEARNTODRIVE_API UClass* Z_Construct_UClass_ARoad_NoRegister();
+	LEARNTODRIVE_API UClass* Z_Construct_UClass_UScreens_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USceneCaptureComponent2D_NoRegister();
 	CHAOSVEHICLES_API UClass* Z_Construct_UClass_UChaosWheeledVehicleMovementComponent_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AVehiclePawn::execResetCar)
@@ -276,6 +278,14 @@ void EmptyLinkFunctionForGeneratedCodeVehiclePawn() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_Road;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Screen_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_Screen;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_Camera;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_CriticalAngle_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_CriticalAngle;
@@ -305,7 +315,6 @@ void EmptyLinkFunctionForGeneratedCodeVehiclePawn() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVehiclePawn_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "VehiclePawn.h" },
 		{ "ModuleRelativePath", "Private/VehiclePawn.h" },
@@ -350,6 +359,22 @@ void EmptyLinkFunctionForGeneratedCodeVehiclePawn() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Road = { "Road", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVehiclePawn, Road), Z_Construct_UClass_ARoad_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Road_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Road_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Screen_MetaData[] = {
+		{ "Category", "VehiclePawn" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Private/VehiclePawn.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Screen = { "Screen", nullptr, (EPropertyFlags)0x002008000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVehiclePawn, Screen), Z_Construct_UClass_UScreens_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Screen_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Screen_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Camera_MetaData[] = {
+		{ "Category", "VehiclePawn" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Private/VehiclePawn.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x0020080000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVehiclePawn, Camera), Z_Construct_UClass_USceneCaptureComponent2D_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Camera_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVehiclePawn_Statics::NewProp_CriticalAngle_MetaData[] = {
 		{ "Category", "VehiclePawn" },
 		{ "ModuleRelativePath", "Private/VehiclePawn.h" },
@@ -376,6 +401,8 @@ void EmptyLinkFunctionForGeneratedCodeVehiclePawn() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehiclePawn_Statics::NewProp_BackPoint,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehiclePawn_Statics::NewProp_AdvancePoint,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Road,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Screen,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehiclePawn_Statics::NewProp_Camera,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehiclePawn_Statics::NewProp_CriticalAngle,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehiclePawn_Statics::NewProp_MaxSpeed,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehiclePawn_Statics::NewProp_ChaosWheeledVehicleComponent,
@@ -416,9 +443,9 @@ void EmptyLinkFunctionForGeneratedCodeVehiclePawn() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AVehiclePawn, AVehiclePawn::StaticClass, TEXT("AVehiclePawn"), &Z_Registration_Info_UClass_AVehiclePawn, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AVehiclePawn), 1573707187U) },
+		{ Z_Construct_UClass_AVehiclePawn, AVehiclePawn::StaticClass, TEXT("AVehiclePawn"), &Z_Registration_Info_UClass_AVehiclePawn, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AVehiclePawn), 1676637577U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_1856168667(TEXT("/Script/learnToDrive"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_230670778(TEXT("/Script/learnToDrive"),
 		Z_CompiledInDeferFile_FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

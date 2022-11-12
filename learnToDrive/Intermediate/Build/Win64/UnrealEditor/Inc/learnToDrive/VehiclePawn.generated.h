@@ -13,8 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define LEARNTODRIVE_VehiclePawn_generated_h
 
-#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_SPARSE_DATA
-#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_RPC_WRAPPERS \
+#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_SPARSE_DATA
+#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execResetCar); \
 	DECLARE_FUNCTION(execHandBreakReleased); \
@@ -23,7 +23,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execMoveForward);
 
 
-#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execResetCar); \
 	DECLARE_FUNCTION(execHandBreakReleased); \
@@ -32,15 +32,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execMoveForward);
 
 
-#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_EVENT_PARMS \
+#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_EVENT_PARMS \
 	struct VehiclePawn_eventBreakLights_Parms \
 	{ \
 		bool state; \
 	};
 
 
-#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_CALLBACK_WRAPPERS
-#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_CALLBACK_WRAPPERS
+#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAVehiclePawn(); \
 	friend struct Z_Construct_UClass_AVehiclePawn_Statics; \
@@ -49,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(AVehiclePawn)
 
 
-#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_INCLASS \
+#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAVehiclePawn(); \
 	friend struct Z_Construct_UClass_AVehiclePawn_Statics; \
@@ -58,7 +58,7 @@ public: \
 	DECLARE_SERIALIZER(AVehiclePawn)
 
 
-#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_STANDARD_CONSTRUCTORS \
+#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AVehiclePawn(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AVehiclePawn) \
@@ -71,7 +71,7 @@ private: \
 public:
 
 
-#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AVehiclePawn(AVehiclePawn&&); \
@@ -82,30 +82,30 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AVehiclePawn)
 
 
-#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_13_PROLOG \
-	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_EVENT_PARMS
+#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_12_PROLOG \
+	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_EVENT_PARMS
 
 
-#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_GENERATED_BODY_LEGACY \
+#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_SPARSE_DATA \
-	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_RPC_WRAPPERS \
-	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_CALLBACK_WRAPPERS \
-	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_INCLASS \
-	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_STANDARD_CONSTRUCTORS \
+	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_SPARSE_DATA \
+	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_RPC_WRAPPERS \
+	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_CALLBACK_WRAPPERS \
+	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_INCLASS \
+	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_GENERATED_BODY \
+#define FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_SPARSE_DATA \
-	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_CALLBACK_WRAPPERS \
-	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_INCLASS_NO_PURE_DECLS \
-	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_16_ENHANCED_CONSTRUCTORS \
+	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_SPARSE_DATA \
+	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_CALLBACK_WRAPPERS \
+	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_INCLASS_NO_PURE_DECLS \
+	FID_learnToDrive_Source_learnToDrive_Private_VehiclePawn_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

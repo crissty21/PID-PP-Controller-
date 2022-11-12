@@ -13,10 +13,14 @@ AVehiclePawn::AVehiclePawn()
 	FrontPoint = CreateDefaultSubobject<USceneComponent>("FrontPoint");
 	BackPoint = CreateDefaultSubobject<USceneComponent>("BackPoint");
 	AdvancePoint = CreateDefaultSubobject<USceneComponent>("AdvancePoint");
+	Screen = CreateDefaultSubobject<UScreens>("Screen");
+	Camera = CreateDefaultSubobject<USceneCaptureComponent2D>("Camera");
 
 	FrontPoint->SetupAttachment(RootComponent);
 	BackPoint->SetupAttachment(RootComponent);
 	AdvancePoint->SetupAttachment(RootComponent);
+	Screen->SetupAttachment(RootComponent);
+	Camera->SetupAttachment(RootComponent);
 }
 
 void AVehiclePawn::BeginPlay()
@@ -58,7 +62,6 @@ void AVehiclePawn::Tick(float DeltaTime)
 	{
 		GetMesh()->SetAngularDamping(3);
 	}
- 
 	KeepRoad();
 	CruiseControll(DeltaTime);
 }
@@ -84,9 +87,7 @@ void AVehiclePawn::CruiseControll(float DeltaTime)
 	if (value < -1)
 	{
 		value = -1;
-	}
-
-	
+	}	
 	MoveForward(value);
 }
 
@@ -120,16 +121,18 @@ void AVehiclePawn::KeepRoad()
 	}
 	else
 		DesiredSpeed = MaxSpeed;
-
 }
-
+ 
 
 
 void AVehiclePawn::MoveForward(float value)
 {
+
 	if (value >= 0)
 	{
 		ChaosWheeledVehicleComponent->SetThrottleInput(value);
+		UE_LOG(LogTemp, Warning, TEXT("%f"), value);
+
 		ChaosWheeledVehicleComponent->SetBrakeInput(0);
 		//turn off break lights
 		if (BreakLightsState == true)

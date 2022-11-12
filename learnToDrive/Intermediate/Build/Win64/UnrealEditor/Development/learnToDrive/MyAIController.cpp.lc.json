@@ -1,12 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "d:\\ureal proj\\learntodrive\\source\\learntodrive\\myaicontroller.cpp",
+        "Source": "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\source\\learntodrive\\myaicontroller.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\ureal proj\\learntodrive\\intermediate\\build\\win64\\learntodriveeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\intermediate\\build\\win64\\learntodriveeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "d:\\ureal proj\\learntodrive\\intermediate\\build\\win64\\unrealeditor\\development\\learntodrive\\definitions.learntodrive.h",
-            "d:\\ureal proj\\learntodrive\\source\\learntodrive\\myaicontroller.h",
+            "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\intermediate\\build\\win64\\unrealeditor\\development\\learntodrive\\definitions.learntodrive.h",
+            "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\source\\learntodrive\\myaicontroller.h",
             "d:\\ue_5.0\\engine\\source\\runtime\\aimodule\\classes\\aicontroller.h",
             "d:\\ue_5.0\\engine\\source\\runtime\\navigationsystem\\public\\navfilters\\navigationqueryfilter.h",
             "d:\\ue_5.0\\engine\\source\\runtime\\navigationsystem\\public\\navareas\\navarea.h",
@@ -46,7 +46,7 @@
             "d:\\ue_5.0\\engine\\source\\runtime\\engine\\public\\visuallogger\\visualloggerdebugsnapshotinterface.h",
             "d:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\visualloggerdebugsnapshotinterface.generated.h",
             "d:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\aicontroller.generated.h",
-            "d:\\ureal proj\\learntodrive\\intermediate\\build\\win64\\unrealeditor\\inc\\learntodrive\\myaicontroller.generated.h"
+            "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\intermediate\\build\\win64\\unrealeditor\\inc\\learntodrive\\myaicontroller.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

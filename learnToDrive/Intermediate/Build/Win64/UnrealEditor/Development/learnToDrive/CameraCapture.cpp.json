@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\source\\learntodrive\\private\\cameracapture.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\intermediate\\build\\win64\\learntodriveeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\intermediate\\build\\win64\\unrealeditor\\development\\learntodrive\\definitions.learntodrive.h",
+            "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\source\\learntodrive\\private\\cameracapture.h",
+            "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\intermediate\\build\\win64\\unrealeditor\\inc\\learntodrive\\cameracapture.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

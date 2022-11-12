@@ -1,0 +1,23 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\source\\learntodrive\\private\\screens.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\intermediate\\build\\win64\\learntodriveeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\intermediate\\build\\win64\\unrealeditor\\development\\learntodrive\\definitions.learntodrive.h",
+            "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\source\\learntodrive\\private\\screens.h",
+            "d:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\texturerendertarget2d.h",
+            "d:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\texturerendertarget.h",
+            "d:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\texturerendertarget.generated.h",
+            "d:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\texturerendertarget2d.generated.h",
+            "d:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\scenecapturecomponent2d.h",
+            "d:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\scenecapturecomponent.h",
+            "d:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\scenecapturecomponent.generated.h",
+            "d:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\scenecapturecomponent2d.generated.h",
+            "d:\\ureal proj\\projecte\\pid-pp-controller-\\learntodrive\\intermediate\\build\\win64\\unrealeditor\\inc\\learntodrive\\screens.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

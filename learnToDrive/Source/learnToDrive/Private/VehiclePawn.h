@@ -5,11 +5,10 @@
 #include "CoreMinimal.h"
 #include "WheeledVehiclePawn.h"
 #include "Road.h"
+#include <Screens.h>
 #include "VehiclePawn.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class AVehiclePawn : public AWheeledVehiclePawn
 {
@@ -48,6 +47,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float DesiredSpeed = 80.f;
 
+
+
 protected:
 	UPROPERTY(EditAnywhere)
 		USceneComponent* FrontPoint = nullptr;
@@ -57,6 +58,10 @@ protected:
 		USceneComponent* AdvancePoint = nullptr;
 	UPROPERTY(EditDefaultsOnly)
 		ARoad* Road = nullptr;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UScreens* Screen = nullptr;
+	UPROPERTY(EditAnywhere)
+		USceneCaptureComponent2D* Camera = nullptr;
 	UPROPERTY(EditDefaultsOnly)
 		float CriticalAngle = 0.5;
 	UPROPERTY(EditDefaultsOnly)

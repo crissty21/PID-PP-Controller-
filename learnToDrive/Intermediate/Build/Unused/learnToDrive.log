@@ -1,4 +1,17 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\crist\AppData\Local\UnrealBuildTool\Log.txt
-UnrealBuildTool : error : Unable to build while Live Coding is active. Exit the editor and game, or press Ctrl+Alt+F11 if iterating on code in the editor or game
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command "D:\UE_5.0\Engine\Build\BatchFiles\Build.bat learnToDriveEditor Win64 Development -Project="D:\ureal proj\learnToDrive\learnToDrive.uproject" -WaitMutex -FromMsBuild" exited with code 6.
+  Using 'git status' to determine working set for adaptive non-unity build (D:\ureal proj\projecte\PID-PP-Controller-).
+  Building learnToDriveEditor...
+  Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from learnToDrive unity file: CameraCapture.cpp, Screen.cpp, Screens.cpp, VehiclePawn.cpp
+  Determining max actions to execute in parallel (6 physical cores, 6 logical cores)
+    Executing up to 6 processes, one per physical core
+  Building 4 actions with 4 processes...
+  [1/4] Compile VehiclePawn.cpp
+  [2/4] Link UnrealEditor-learnToDrive.lib
+     Creating library D:\ureal proj\projecte\PID-PP-Controller-\learnToDrive\Intermediate\Build\Win64\UnrealEditor\Development\learnToDrive\UnrealEditor-learnToDrive.lib and object D:\ureal proj\projecte\PID-PP-Controller-\learnToDrive\Intermediate\Build\Win64\UnrealEditor\Development\learnToDrive\UnrealEditor-learnToDrive.exp
+  [3/4] Link UnrealEditor-learnToDrive.dll
+     Creating library D:\ureal proj\projecte\PID-PP-Controller-\learnToDrive\Intermediate\Build\Win64\UnrealEditor\Development\learnToDrive\UnrealEditor-learnToDrive.suppressed.lib and object D:\ureal proj\projecte\PID-PP-Controller-\learnToDrive\Intermediate\Build\Win64\UnrealEditor\Development\learnToDrive\UnrealEditor-learnToDrive.suppressed.exp
+  [4/4] WriteMetadata learnToDriveEditor.target
+  Total time in Parallel executor: 15.97 seconds
+  Total execution time: 16.50 seconds
