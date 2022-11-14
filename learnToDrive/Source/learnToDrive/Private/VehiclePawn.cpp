@@ -117,7 +117,7 @@ void AVehiclePawn::KeepRoad()
 	{
 		float update = MaxSpeed - (MaxSpeed - 10) * FMath::Abs(angle) * 2;
 		if (curentSpeed - update >= 20)
-			DesiredSpeed = update;
+			DesiredSpeed = update; 
 	}
 	else
 		DesiredSpeed = MaxSpeed;

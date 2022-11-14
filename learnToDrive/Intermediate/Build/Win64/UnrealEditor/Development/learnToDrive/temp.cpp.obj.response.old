@@ -1,11 +1,7 @@
 "D:\ureal proj\projecte\PID-PP-Controller-\learnToDrive\Source\learnToDrive\Private\temp.cpp"
 /I .
 /I "D:\ureal proj\projecte\PID-PP-Controller-\learnToDrive\Source\learnToDrive\Private"
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AIModule
 /I Runtime
-/I Runtime\NavigationSystem\Public
-/I Runtime\AIModule\Public
-/I Runtime\AIModule\Classes
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject
@@ -190,6 +186,7 @@
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\PropertyPath
 /I Runtime\PropertyPath\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\NavigationSystem
+/I Runtime\NavigationSystem\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\GeometryCollectionEngine
 /I Runtime\Experimental\GeometryCollectionEngine\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MaterialShaderQualitySettings
@@ -248,10 +245,17 @@
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayTasks
 /I Runtime\GameplayTasks\Classes
 /I Runtime\GameplayTasks\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AIModule
+/I Runtime\AIModule\Public
+/I Runtime\AIModule\Classes
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
+/I ..\Plugins\Runtime\OpenCV\Source\ThirdParty
+/I ..\Plugins\Runtime\OpenCV\Intermediate\Build\Win64\UnrealEditor\Inc\OpenCVHelper
+/I ..\Plugins\Runtime\OpenCV\Source
+/I ..\Plugins\Runtime\OpenCV\Source\OpenCVHelper\Public
 /I ..\Plugins\Experimental\ChaosVehiclesPlugin\Intermediate\Build\Win64\UnrealEditor\Inc\ChaosVehicles
 /I ..\Plugins\Experimental\ChaosVehiclesPlugin\Source
 /I ..\Plugins\Experimental\ChaosVehiclesPlugin\Source\ChaosVehicles\Public
@@ -263,6 +267,10 @@
 /I Runtime\Experimental\ChaosVehicles\ChaosVehiclesEngine\Public
 /I "D:\ureal proj\projecte\PID-PP-Controller-\learnToDrive\Intermediate\Build\Win64\UnrealEditor\Inc\learnToDrive"
 /I "D:\ureal proj\projecte\PID-PP-Controller-\learnToDrive\Source"
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality
+/I Runtime\AugmentedReality\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh
+/I Runtime\MRMesh\Public
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
@@ -277,6 +285,7 @@
 /I ThirdParty\PhysX3\PhysX_3.4\Include\common
 /I ThirdParty\PhysX3\PhysX_3.4\Include\extensions
 /I ThirdParty\PhysX3\PhysX_3.4\Include\geometry
+/I ..\Plugins\Runtime\OpenCV\Source\ThirdParty\OpenCV\include
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
